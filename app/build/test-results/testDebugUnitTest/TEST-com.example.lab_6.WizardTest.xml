@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.lab_6.WizardTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-13T23:46:46.194Z" hostname="DESKTOP-PS92L7N" time="0.022">
+  <properties/>
+  <testcase name="castSpell_frostbite_unsuccessful" classname="com.example.lab_6.WizardTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

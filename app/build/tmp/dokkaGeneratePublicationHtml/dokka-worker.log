@@ -1,0 +1,150 @@
+[PROGRESS] Executing DokkaGeneratorWorker with dokkaParameters: DokkaConfigurationImpl(moduleName=app, moduleVersion=null, outputDir=C:\Users\Jeremy\lab-06\app\build\dokka\html, cacheRoot=null, offlineMode=false, sourceSets=[DokkaSourceSetImpl(displayName=release, sourceSetID=:app/release, classpath=[C:\Users\Jeremy\AppData\Local\Android\Sdk\platforms\android-37.0\android.jar, C:\Users\Jeremy\AppData\Local\Android\Sdk\build-tools\36.0.0\core-lambda-stubs.jar, C:\Users\Jeremy\lab-06\app\build\intermediates\compile_r_class_jar\release\generateReleaseRFile\R.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\bece5e994dc1940566f3ee2a837ffa58\transformed\activity-1.13.0-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\f6dd0d94c937550d2c7f34973ffc147f\transformed\activity-compose-1.13.0-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\06d9b592ac4d469ea2ff8de170be8759\transformed\core-1.19.1-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\8bbdc85439a0956be053c59e15685249\transformed\material3-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\c186761271a1f82423fa3a5a1f96c34e\transformed\ui-util-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\0291339b32edcbe13d9139bc6e64bcd7\transformed\ui-unit-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\53b0d340f3a365dbe04fedab14c7c45a\transformed\foundation-layout-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\7015537176e8db0949cfa77cc3023cf6\transformed\material-ripple-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\1ecaad76849da2bffefe78dc4cc6ef78\transformed\foundation-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\9993c58e1b04816da52fbbe40b6d28c2\transformed\animation-core-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\09617ad683c1e08df885215e53f7eddb\transformed\animation-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\2b4751be687a9deb21aef34a2afe8ec2\transformed\ui-geometry-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\66d9b2ea8a455e3a00a7862c3b76b94a\transformed\ui-text-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\27ad969b65f2e0c0bfb8a570363419c4\transformed\ui-tooling-preview-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\43728e6598d4b9b360c2df5f76149014\transformed\ui-graphics-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\a9f37e18ef53916aaad095b62f916dc0\transformed\ui-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\1c366b696a56185ec57e22afdebf7df9\transformed\lifecycle-livedata-core-2.11.0-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\2a64b3764f8f135381cd05b92c00555b\transformed\lifecycle-runtime-compose-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\65d7e5fb2191ad9fe90cb44d559e19ef\transformed\lifecycle-viewmodel-api.jar, C:\Users\Jeremy\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common-jvm\2.11.0\2c4f7d92f1fd723121d394c93455f50158403ad9\lifecycle-common-jvm-2.11.0.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\c2fe34cda7f012e90f0360a519f7fa3a\transformed\lifecycle-runtime-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\e6043951f196e8d1ff8a7fa7599f3bcd\transformed\lifecycle-runtime-ktx-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\da64cafea2d5216288bece10db744cd4\transformed\lifecycle-viewmodel-savedstate-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\e99d8f59b9bd7b4813e8b53b3baad0ea\transformed\core-ktx-1.19.1-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\772304bcaf5ad6c120ca7f4cd7c69285\transformed\core-viewtree-1.0.0-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\2291aa6d4af0b00fe8ea62f0f8bf410b\transformed\navigationevent-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\1582490cadf55dc10523da6a0b9d0199\transformed\navigationevent-compose-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\1cf18bf4d9a97818301bb72c5fe6c9d9\transformed\savedstate-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\48182397acdf31e8261c8c806399e0c2\transformed\runtime-retain-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\23d81cbef983a67ac846af674dabaf17\transformed\runtime-annotation-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\92b926a3be19d0653c041ef022201879\transformed\runtime-saveable-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\0b93be5cb2ce966b019c2d08972a680b\transformed\savedstate-compose-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\733facff46d987a4a1a5ca3206a2a732\transformed\runtime-api.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\e315eada999de4f6e418810f2a819294\transformed\annotation-experimental-1.4.1-api.jar, C:\Users\Jeremy\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-core-jvm\1.9.0\9beade4c1c1569e4f36cbd2c37e02e3e41502601\kotlinx-coroutines-core-jvm-1.9.0.jar, C:\Users\Jeremy\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-android\1.9.0\6cf3b8df5a2ce8c6b0dffe55657a827c405ee2fe\kotlinx-coroutines-android-1.9.0.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\4d0f958279f4c8095bcddb772d716534\transformed\versionedparcelable-1.1.1-api.jar, C:\Users\Jeremy\.gradle\caches\modules-2\files-2.1\androidx.arch.core\core-common\2.2.0\5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3\core-common-2.2.0.jar, C:\Users\Jeremy\.gradle\caches\modules-2\files-2.1\androidx.collection\collection-jvm\1.5.0\7ba2c69414d46ebc2dd76598bdd0a75c54281a57\collection-jvm-1.5.0.jar, C:\Users\Jeremy\.gradle\caches\modules-2\files-2.1\androidx.annotation\annotation-jvm\1.10.0\388cfaa79001d0f024d28f6a13d5a3dfc2f0e18f\annotation-jvm-1.10.0.jar, C:\Users\Jeremy\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-serialization-core-jvm\1.7.3\1f226780b845ff9206474c05159245d861556249\kotlinx-serialization-core-jvm-1.7.3.jar, C:\Users\Jeremy\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\2.2.10\30de6faa127a4a012db8e71bf1b9c0a99b1402b2\kotlin-stdlib-2.2.10.jar, C:\Users\Jeremy\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\23.0.0\8cc20c07506ec18e0834947b84a864bfc094484e\annotations-23.0.0.jar, C:\Users\Jeremy\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\1.0\c949a840a6acbc5268d088e47b04177bf90b3cad\listenablefuture-1.0.jar, C:\Users\Jeremy\.gradle\caches\modules-2\files-2.1\org.jspecify\jspecify\1.0.0\7425a601c1c7ec76645a78d22b8c6a627edee507\jspecify-1.0.0.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\5c99aeacd0fe3eaab5c2408d0f50c08c\transformed\activity-1.13.0\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\f2e293c0fc2ad25ad8d71be8b0d15097\transformed\activity-compose-1.13.0\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\fd05ccfc6a68f09fbb69bd1dd3455a6a\transformed\core-1.19.1\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\7264100036faede5bedc608e7a32c47e\transformed\material3\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\c4f54c4ed42178afae3ac6486c57297d\transformed\ui-util\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\1087a8283d25a22d2f9feb0bf3b0fa2e\transformed\ui-unit\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\4a55efb69f37c441772af22dc0eb3676\transformed\foundation-layout\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\fc9681a12b8ac87d5d4fe6a4edbffb7b\transformed\material-ripple\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\9d1fff3a4ad45a187ef935d9a221f696\transformed\foundation\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\aa0085af25bfc7628faf9a31efc09371\transformed\animation-core\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\d83f877b2037ebe36fa289780505f748\transformed\animation\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\f8a1a25f34e47f068df1a1f359fd4f10\transformed\ui-geometry\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\4ffbfee4550ccbf3779a9dbd65fc2441\transformed\ui-text\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\5877dff452144073d6669a00ba127f91\transformed\ui-tooling-preview\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\1cb7d02d4e227347b21fe234ac24e146\transformed\ui-graphics\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\bcada688cf4e4e78358e1d3d1bf7dbd2\transformed\ui\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\37090438e65655e8e90da4420f8f95c3\transformed\lifecycle-livedata-core-2.11.0\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\64a2009839663ffb191db069779b44f5\transformed\lifecycle-runtime-compose\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\c769a59a4022263b8eb6293829a69c97\transformed\lifecycle-viewmodel\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\b4acb00ee91e5b025ad7b8548483d362\transformed\lifecycle-runtime\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\87913ea5c5b68d3382fba2fb1734133c\transformed\lifecycle-runtime-ktx\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\165fa56d7779e99411ccf8d07166d1de\transformed\lifecycle-viewmodel-savedstate\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\868edf690c6079146df18c206a8d5cb3\transformed\core-ktx-1.19.1\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\c02153f06aa7a70ac7faceff559669c7\transformed\core-viewtree-1.0.0\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\57a49822e0f22304f36a6e0789d48ed8\transformed\navigationevent\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\a7213238fc20bf6ee6a95f8c718aa949\transformed\navigationevent-compose\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\c2606bbd5d8f159ed5633d8d0a22bab2\transformed\savedstate\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\58ba649816f44653ffb71dcd8de28eb0\transformed\runtime-retain\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\67dafc76169492e816bb3a0ecd493de5\transformed\runtime-annotation\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\208cfe0590f2eb69e0674120194bacb9\transformed\runtime-saveable\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\334b4837654de21255e079517c67bfeb\transformed\savedstate-compose\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\3245a0ec39ac951c3414b8999ac65535\transformed\runtime\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\7d083338d93091420f2ff1d4290f2203\transformed\annotation-experimental-1.4.1\jars\classes.jar, C:\Users\Jeremy\.gradle\caches\9.6.0\transforms\54e4104c657745b12a90d10b20b1ed1b\transformed\versionedparcelable-1.1.1\jars\classes.jar], sourceRoots=[C:\Users\Jeremy\lab-06\app\src\main\java, C:\Users\Jeremy\lab-06\app\src\main\kotlin, C:\Users\Jeremy\lab-06\app\src\release\java, C:\Users\Jeremy\lab-06\app\src\release\kotlin], dependentSourceSets=[], samples=[], includes=[], includeNonPublic=false, reportUndocumented=false, skipEmptyPackages=true, skipDeprecated=false, jdkVersion=11, sourceLinks=[], perPackageOptions=[], externalDocumentationLinks=[ExternalDocumentationLinkImpl(url=https://developer.android.com/reference/kotlin/, packageListUrl=https://developer.android.com/reference/kotlin/package-list), ExternalDocumentationLinkImpl(url=https://developer.android.com/reference/kotlin/, packageListUrl=https://developer.android.com/reference/kotlin/androidx/package-list), ExternalDocumentationLinkImpl(url=https://docs.oracle.com/en/java/javase/11/docs/api/, packageListUrl=https://docs.oracle.com/en/java/javase/11/docs/api/element-list), ExternalDocumentationLinkImpl(url=https://kotlinlang.org/api/core/, packageListUrl=https://kotlinlang.org/api/core/package-list)], languageVersion=null, apiVersion=null, noStdlibLink=false, noJdkLink=false, suppressedFiles=[C:\Users\Jeremy\lab-06\app\build\generated], analysisPlatform=jvm, documentedVisibilities=[PUBLIC])], pluginsClasspath=[C:\Users\Jeremy\.gradle\caches\modules-2\files-2.1\org.jetbrains.dokka\templating-plugin\2.2.0\c3c13a48444b9c22e5286e88581ce0334e25352d\templating-plugin-2.2.0.jar, C:\Users\Jeremy\.gradle\caches\modules-2\files-2.1\org.jetbrains.dokka\dokka-base\2.2.0\84b0c641ea99d74ba3e251b6a0e33c5ead8d4312\dokka-base-2.2.0.jar], pluginsConfiguration=[PluginConfigurationImpl(fqPluginName=org.jetbrains.dokka.base.DokkaBase, serializationFormat=JSON, values={"customAssets":[],"customStyleSheets":[],"separateInheritedMembers":false,"mergeImplicitExpectActualDeclarations":false}), PluginConfigurationImpl(fqPluginName=org.jetbrains.dokka.kotlinPlaygroundSamples.KotlinPlaygroundSamplesPlugin, serializationFormat=JSON, values={}), PluginConfigurationImpl(fqPluginName=org.jetbrains.dokka.versioning.VersioningPlugin, serializationFormat=JSON, values={"olderVersions":[],"olderVersionsDirName":"older","renderVersionsNavigationOnAllPages":true})], modules=[], failOnWarning=false, delayTemplateSubstitution=false, suppressObviousFunctions=true, includes=[], suppressInheritedMembers=false, finalizeCoroutines=false)
+[PROGRESS] Initializing plugins
+[INFO] Loaded plugins: [org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin, org.jetbrains.dokka.analysis.java.JavaAnalysisPlugin, org.jetbrains.dokka.templates.TemplatingPlugin, org.jetbrains.dokka.base.DokkaBase]
+[INFO] Loaded: [
+	ExtensionPoint: org.jetbrains.dokka.CoreExtensions/preGenerationCheck,
+	ExtensionPoint: org.jetbrains.dokka.base.DokkaBase/immediateHtmlCommandConsumer,
+	ExtensionPoint: org.jetbrains.dokka.CoreExtensions/pageTransformer,
+	ExtensionPoint: org.jetbrains.dokka.base.DokkaBase/htmlPreprocessors,
+	ExtensionPoint: org.jetbrains.dokka.base.DokkaBase/outputWriter,
+	ExtensionPoint: org.jetbrains.dokka.base.DokkaBase/externalLocationProviderFactory,
+	ExtensionPoint: org.jetbrains.dokka.base.DokkaBase/locationProviderFactory,
+	ExtensionPoint: org.jetbrains.dokka.CoreExtensions/renderer,
+	ExtensionPoint: org.jetbrains.dokka.base.DokkaBase/pageMergerStrategy,
+	ExtensionPoint: org.jetbrains.dokka.base.DokkaBase/commentsToContentConverter,
+	ExtensionPoint: org.jetbrains.dokka.CoreExtensions/documentableToPageTranslator,
+	ExtensionPoint: org.jetbrains.dokka.CoreExtensions/documentableTransformer,
+	ExtensionPoint: org.jetbrains.dokka.base.DokkaBase/signatureProvider,
+	ExtensionPoint: org.jetbrains.dokka.base.DokkaBase/preMergeDocumentableTransformer,
+	ExtensionPoint: org.jetbrains.dokka.CoreExtensions/documentableMerger,
+	ExtensionPoint: org.jetbrains.dokka.CoreExtensions/generation,
+	ExtensionPoint: org.jetbrains.dokka.templates.TemplatingPlugin/directiveBasedCommandHandlers,
+	ExtensionPoint: org.jetbrains.dokka.templates.TemplatingPlugin/substitutor,
+	ExtensionPoint: org.jetbrains.dokka.templates.TemplatingPlugin/templateProcessingStrategy,
+	ExtensionPoint: org.jetbrains.dokka.templates.TemplatingPlugin/multimoduleTemplateProcessor,
+	ExtensionPoint: org.jetbrains.dokka.templates.TemplatingPlugin/submoduleTemplateProcessor,
+	ExtensionPoint: org.jetbrains.dokka.CoreExtensions/sourceToDocumentableTranslator,
+	ExtensionPoint: org.jetbrains.dokka.analysis.java.JavaAnalysisPlugin/docCommentParsers,
+	ExtensionPoint: org.jetbrains.dokka.analysis.java.JavaAnalysisPlugin/docCommentCreators,
+	ExtensionPoint: org.jetbrains.dokka.analysis.kotlin.KotlinAnalysisPlugin/sampleAnalysisEnvironmentCreator,
+	ExtensionPoint: org.jetbrains.dokka.analysis.kotlin.KotlinAnalysisPlugin/externalDocumentableProvider,
+	ExtensionPoint: org.jetbrains.dokka.analysis.kotlin.internal.InternalKotlinAnalysisPlugin/inheritanceBuilder,
+	ExtensionPoint: org.jetbrains.dokka.analysis.kotlin.internal.InternalKotlinAnalysisPlugin/kotlinToJavaService,
+	ExtensionPoint: org.jetbrains.dokka.analysis.kotlin.internal.InternalKotlinAnalysisPlugin/moduleAndPackageDocumentationReader,
+	ExtensionPoint: org.jetbrains.dokka.analysis.kotlin.internal.InternalKotlinAnalysisPlugin/syntheticDocumentableDetector,
+	ExtensionPoint: org.jetbrains.dokka.analysis.kotlin.internal.InternalKotlinAnalysisPlugin/fullClassHierarchyBuilder,
+	ExtensionPoint: org.jetbrains.dokka.analysis.kotlin.internal.InternalKotlinAnalysisPlugin/documentableSourceLanguageParser,
+	ExtensionPoint: org.jetbrains.dokka.analysis.java.JavaAnalysisPlugin/kotlinLightMethodChecker,
+	ExtensionPoint: org.jetbrains.dokka.analysis.java.JavaAnalysisPlugin/inheritDocTagContentProviders,
+	ExtensionPoint: org.jetbrains.dokka.analysis.java.JavaAnalysisPlugin/sourceRootsExtractor,
+	ExtensionPoint: org.jetbrains.dokka.analysis.java.JavaAnalysisPlugin/projectProvider,
+	ExtensionPoint: org.jetbrains.dokka.CoreExtensions/postActions,
+	ExtensionPoint: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/kotlinAnalysis,
+	Extension: org.jetbrains.dokka.base.DokkaBase/sourceSetIdUniquenessChecker,
+	Extension: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/sourceRootIndependentChecker,
+	Extension: org.jetbrains.dokka.base.DokkaBase/pathToRootConsumer,
+	Extension: org.jetbrains.dokka.base.DokkaBase/replaceVersionConsumer,
+	Extension: org.jetbrains.dokka.base.DokkaBase/resolveLinkConsumer,
+	Extension: org.jetbrains.dokka.base.DokkaBase/defaultSamplesTransformer,
+	Extension: org.jetbrains.dokka.base.DokkaBase/sourceSetMerger,
+	Extension: org.jetbrains.dokka.base.DokkaBase/pageMerger,
+	Extension: org.jetbrains.dokka.base.DokkaBase/rootCreator,
+	Extension: org.jetbrains.dokka.base.DokkaBase/sourcesetDependencyAppender,
+	Extension: org.jetbrains.dokka.base.DokkaBase/packageListCreator,
+	Extension: org.jetbrains.dokka.base.DokkaBase/assetsInstaller,
+	Extension: org.jetbrains.dokka.base.DokkaBase/stylesInstaller,
+	Extension: org.jetbrains.dokka.base.DokkaBase/scriptsInstaller,
+	Extension: org.jetbrains.dokka.base.DokkaBase/customResourceInstaller,
+	Extension: org.jetbrains.dokka.base.DokkaBase/navigationPageInstaller,
+	Extension: org.jetbrains.dokka.base.DokkaBase/sourceLinksTransformer,
+	Extension: org.jetbrains.dokka.base.DokkaBase/baseSearchbarDataInstaller,
+	Extension: org.jetbrains.dokka.base.DokkaBase/fileWriter,
+	Extension: org.jetbrains.dokka.base.DokkaBase/dokkaLocationProvider,
+	Extension: org.jetbrains.dokka.base.DokkaBase/javadocLocationProvider,
+	Extension: org.jetbrains.dokka.base.DokkaBase/locationProvider,
+	Extension: org.jetbrains.dokka.base.DokkaBase/htmlRenderer,
+	Extension: org.jetbrains.dokka.base.DokkaBase/sameMethodNameMerger,
+	Extension: org.jetbrains.dokka.base.DokkaBase/fallbackMerger,
+	Extension: org.jetbrains.dokka.base.DokkaBase/docTagToContentConverter,
+	Extension: org.jetbrains.dokka.base.DokkaBase/documentableToPageTranslator,
+	Extension: org.jetbrains.dokka.base.DokkaBase/extensionsExtractor,
+	Extension: org.jetbrains.dokka.base.DokkaBase/undocumentedCodeReporter,
+	Extension: org.jetbrains.dokka.base.DokkaBase/inheritorsExtractor,
+	Extension: org.jetbrains.dokka.base.DokkaBase/actualTypealiasAdder,
+	Extension: org.jetbrains.dokka.base.DokkaBase/kotlinSignatureProvider,
+	Extension: org.jetbrains.dokka.base.DokkaBase/inheritedEntriesVisbilityFilter,
+	Extension: org.jetbrains.dokka.base.DokkaBase/obviousFunctionsVisbilityFilter,
+	Extension: org.jetbrains.dokka.base.DokkaBase/documentableVisibilityFilter,
+	Extension: org.jetbrains.dokka.base.DokkaBase/jvmMappedMethodsFilter,
+	Extension: org.jetbrains.dokka.base.DokkaBase/kotlinArrayDocumentableReplacer,
+	Extension: org.jetbrains.dokka.base.DokkaBase/suppressedBySuppressTagDocumentableFilter,
+	Extension: org.jetbrains.dokka.base.DokkaBase/suppressedDocumentableFilter,
+	Extension: org.jetbrains.dokka.base.DokkaBase/deprecatedDocumentableFilter,
+	Extension: org.jetbrains.dokka.base.DokkaBase/emptyPackagesFilter,
+	Extension: org.jetbrains.dokka.base.DokkaBase/emptyModulesFilter,
+	Extension: org.jetbrains.dokka.base.DokkaBase/modulesAndPackagesDocumentation,
+	Extension: org.jetbrains.dokka.base.DokkaBase/documentableMerger,
+	Extension: org.jetbrains.dokka.base.DokkaBase/singleGeneration,
+	Extension: org.jetbrains.dokka.templates.TemplatingPlugin/replaceVersionCommandHandler,
+	Extension: org.jetbrains.dokka.templates.TemplatingPlugin/substitutionCommandHandler,
+	Extension: org.jetbrains.dokka.templates.TemplatingPlugin/addToNavigationCommandHandler,
+	Extension: org.jetbrains.dokka.templates.TemplatingPlugin/projectNameSubstitutor,
+	Extension: org.jetbrains.dokka.templates.TemplatingPlugin/pathToRootSubstitutor,
+	Extension: org.jetbrains.dokka.templates.TemplatingPlugin/packageListProcessingStrategy,
+	Extension: org.jetbrains.dokka.templates.TemplatingPlugin/pagesSearchTemplateStrategy,
+	Extension: org.jetbrains.dokka.templates.TemplatingPlugin/sourcesetDependencyProcessingStrategy,
+	Extension: org.jetbrains.dokka.templates.TemplatingPlugin/directiveBasedHtmlTemplateProcessingStrategy,
+	Extension: org.jetbrains.dokka.templates.TemplatingPlugin/fallbackProcessingStrategy,
+	Extension: org.jetbrains.dokka.templates.TemplatingPlugin/defaultMultiModuleTemplateProcessor,
+	Extension: org.jetbrains.dokka.templates.TemplatingPlugin/defaultSubmoduleTemplateProcessor,
+	Extension: org.jetbrains.dokka.analysis.java.JavaAnalysisPlugin/psiToDocumentableTranslator,
+	Extension: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/symbolToDocumentableTranslator,
+	Extension: org.jetbrains.dokka.analysis.java.JavaAnalysisPlugin/javaDocCommentParser,
+	Extension: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/kotlinDocCommentParser,
+	Extension: org.jetbrains.dokka.analysis.java.JavaAnalysisPlugin/javaDocCommentCreator,
+	Extension: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/kotlinDocCommentCreator,
+	Extension: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/symbolSampleAnalysisEnvironmentCreator,
+	Extension: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/symbolExternalDocumentableProvider,
+	Extension: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/symbolInheritanceBuilder,
+	Extension: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/kotlinToJavaMapper,
+	Extension: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/moduleAndPackageDocumentationReader,
+	Extension: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/symbolSyntheticDocumentableDetector,
+	Extension: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/symbolFullClassHierarchyBuilder,
+	Extension: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/symbolAnalyzerImpl,
+	Extension: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/kotlinLightMethodChecker,
+	Extension: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/inheritDocTagProvider,
+	Extension: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/sourceRootsExtractor,
+	Extension: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/projectProvider,
+	Extension: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/disposeKotlinAnalysisPostAction,
+	Extension: org.jetbrains.dokka.analysis.kotlin.symbols.plugin.SymbolsAnalysisPlugin/defaultKotlinAnalysis
+]
+[INFO] Suppressed: [
+
+]
+[PROGRESS] Dokka is performing: documentation for app
+[PROGRESS] Validity check
+[PROGRESS] Creating documentation models
+[PROGRESS] Transforming documentation model before merging
+[PROGRESS] Merging documentation models
+[PROGRESS] Transforming documentation model after merging
+[PROGRESS] Creating pages
+[PROGRESS] Transforming pages
+[PROGRESS] Rendering
+[PROGRESS] Running post-actions
+[INFO] Unused extension points found: ExtensionPoint: org.jetbrains.dokka.templates.TemplatingPlugin/directiveBasedCommandHandlers, ExtensionPoint: org.jetbrains.dokka.templates.TemplatingPlugin/substitutor, ExtensionPoint: org.jetbrains.dokka.templates.TemplatingPlugin/templateProcessingStrategy, ExtensionPoint: org.jetbrains.dokka.templates.TemplatingPlugin/multimoduleTemplateProcessor, ExtensionPoint: org.jetbrains.dokka.templates.TemplatingPlugin/submoduleTemplateProcessor, ExtensionPoint: org.jetbrains.dokka.analysis.kotlin.KotlinAnalysisPlugin/externalDocumentableProvider, ExtensionPoint: org.jetbrains.dokka.analysis.kotlin.internal.InternalKotlinAnalysisPlugin/inheritanceBuilder, ExtensionPoint: org.jetbrains.dokka.analysis.kotlin.internal.InternalKotlinAnalysisPlugin/kotlinToJavaService, ExtensionPoint: org.jetbrains.dokka.analysis.kotlin.internal.InternalKotlinAnalysisPlugin/syntheticDocumentableDetector
+[INFO] Generation completed successfully
+[INFO] 
+
+ === TIME MEASUREMENT ===
+
+                           Initializing plugins:   305
+                                 Validity check:     1
+                  Creating documentation models: 12066
+Transforming documentation model before merging:    74
+                   Merging documentation models:     2
+ Transforming documentation model after merging:    29
+                                 Creating pages:   298
+                             Transforming pages:   143
+                                      Rendering:  5064
+
+[INFO] DokkaGeneratorWorker completed in PT22.5707605S
